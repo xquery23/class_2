@@ -12,3 +12,10 @@ int main() {
 
     return 0;
 }
+/*
+--compile-commands-dir=${workspaceFolder}/build
+--all-scopes-completion
+--completion-style=detailed
+--background-index
+--clang-tidy
+*/

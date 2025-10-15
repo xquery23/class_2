@@ -2,6 +2,8 @@
 #define VIDEO_PROCESSOR_HPP
 
 #include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+// #include <opencv2/core/mat.hpp>
 #include <string>
 
 class VideoProcessor {

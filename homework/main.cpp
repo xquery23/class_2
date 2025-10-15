@@ -2,8 +2,8 @@
 #include <iostream>
 
 int main() {
-    std::string inputPath = "/home/wael/BaseOrigin/hero/8.8/2024-8-8_17-54-17_camKE0200050354.avi";
-    std::string outputPath = "/home/wael/BaseOrigin/test.mp4";
+    std::string inputPath = "/home/xeqon9/Videos/TEST2.mp4";
+    std::string outputPath = "/home/xeqon9/Videos/TEST2_OUTPUT.mp4";
 
     VideoProcessor processor(inputPath, outputPath);
     

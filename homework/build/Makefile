@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HOMEWORK_2
+# Target rules for targets named cut
 
 # Build rule for target.
-HOMEWORK_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HOMEWORK_2
-.PHONY : HOMEWORK_2
+cut: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cut
+.PHONY : cut
 
 # fast build rule for target.
-HOMEWORK_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/build
-.PHONY : HOMEWORK_2/fast
+cut/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/build
+.PHONY : cut/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/video_processor.o: src/video_processor.cpp.o
@@ -158,7 +158,7 @@ src/video_processor.o: src/video_processor.cpp.o
 
 # target to build an object file
 src/video_processor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/src/video_processor.cpp.o
 .PHONY : src/video_processor.cpp.o
 
 src/video_processor.i: src/video_processor.cpp.i
@@ -166,7 +166,7 @@ src/video_processor.i: src/video_processor.cpp.i
 
 # target to preprocess a source file
 src/video_processor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/src/video_processor.cpp.i
 .PHONY : src/video_processor.cpp.i
 
 src/video_processor.s: src/video_processor.cpp.s
@@ -174,7 +174,7 @@ src/video_processor.s: src/video_processor.cpp.s
 
 # target to generate assembly for a file
 src/video_processor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/src/video_processor.cpp.s
 .PHONY : src/video_processor.cpp.s
 
 utility/tool.o: utility/tool.cpp.o
@@ -182,7 +182,7 @@ utility/tool.o: utility/tool.cpp.o
 
 # target to build an object file
 utility/tool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/utility/tool.cpp.o
 .PHONY : utility/tool.cpp.o
 
 utility/tool.i: utility/tool.cpp.i
@@ -190,7 +190,7 @@ utility/tool.i: utility/tool.cpp.i
 
 # target to preprocess a source file
 utility/tool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/utility/tool.cpp.i
 .PHONY : utility/tool.cpp.i
 
 utility/tool.s: utility/tool.cpp.s
@@ -198,7 +198,7 @@ utility/tool.s: utility/tool.cpp.s
 
 # target to generate assembly for a file
 utility/tool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HOMEWORK_2.dir/build.make CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cut.dir/build.make CMakeFiles/cut.dir/utility/tool.cpp.s
 .PHONY : utility/tool.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... HOMEWORK_2"
+	@echo "... cut"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/HOMEWORK_2.dir/main.cpp.o CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o -o HOMEWORK_2 
