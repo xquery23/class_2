@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/xeqon9/Code/class_2/learn/build",
+  "command": "/usr/bin/g++  -I/home/xeqon9/Code/class_2/learn/include -g -o CMakeFiles/class_2.dir/src/greeter.cpp.o -c /home/xeqon9/Code/class_2/learn/src/greeter.cpp",
+  "file": "/home/xeqon9/Code/class_2/learn/src/greeter.cpp"
+},
+{
+  "directory": "/home/xeqon9/Code/class_2/learn/build",
+  "command": "/usr/bin/g++  -I/home/xeqon9/Code/class_2/learn/include -g -o CMakeFiles/class_2.dir/src/main.cpp.o -c /home/xeqon9/Code/class_2/learn/src/main.cpp",
+  "file": "/home/xeqon9/Code/class_2/learn/src/main.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/xeqon9/Code/class_2/homework/build/CMakeFiles/HOMEWORK_2.dir
+/home/xeqon9/Code/class_2/homework/build/CMakeFiles/edit_cache.dir
+/home/xeqon9/Code/class_2/homework/build/CMakeFiles/rebuild_cache.dir
