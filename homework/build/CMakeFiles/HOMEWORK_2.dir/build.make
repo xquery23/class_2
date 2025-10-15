@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xeqon9/Code/class_2/homework
+CMAKE_SOURCE_DIR = /home/xeqon9/Code/C++/class_2/homework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xeqon9/Code/class_2/homework/build
+CMAKE_BINARY_DIR = /home/xeqon9/Code/C++/class_2/homework/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HOMEWORK_2.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/HOMEWORK_2.dir/flags.make
 CMakeFiles/HOMEWORK_2.dir/main.cpp.o: CMakeFiles/HOMEWORK_2.dir/flags.make
 CMakeFiles/HOMEWORK_2.dir/main.cpp.o: ../main.cpp
 CMakeFiles/HOMEWORK_2.dir/main.cpp.o: CMakeFiles/HOMEWORK_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HOMEWORK_2.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HOMEWORK_2.dir/main.cpp.o -MF CMakeFiles/HOMEWORK_2.dir/main.cpp.o.d -o CMakeFiles/HOMEWORK_2.dir/main.cpp.o -c /home/xeqon9/Code/class_2/homework/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HOMEWORK_2.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HOMEWORK_2.dir/main.cpp.o -MF CMakeFiles/HOMEWORK_2.dir/main.cpp.o.d -o CMakeFiles/HOMEWORK_2.dir/main.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/main.cpp
 
 CMakeFiles/HOMEWORK_2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HOMEWORK_2.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/class_2/homework/main.cpp > CMakeFiles/HOMEWORK_2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/main.cpp > CMakeFiles/HOMEWORK_2.dir/main.cpp.i
 
 CMakeFiles/HOMEWORK_2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HOMEWORK_2.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/class_2/homework/main.cpp -o CMakeFiles/HOMEWORK_2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/main.cpp -o CMakeFiles/HOMEWORK_2.dir/main.cpp.s
 
 CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o: CMakeFiles/HOMEWORK_2.dir/flags.make
 CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o: ../src/video_processor.cpp
 CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o: CMakeFiles/HOMEWORK_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o -MF CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o.d -o CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o -c /home/xeqon9/Code/class_2/homework/src/video_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o -MF CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o.d -o CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp
 
 CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/class_2/homework/src/video_processor.cpp > CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp > CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.i
 
 CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/class_2/homework/src/video_processor.cpp -o CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp -o CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.s
 
 CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o: CMakeFiles/HOMEWORK_2.dir/flags.make
 CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o: ../utility/tool.cpp
 CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o: CMakeFiles/HOMEWORK_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o -MF CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o.d -o CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o -c /home/xeqon9/Code/class_2/homework/utility/tool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o -MF CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o.d -o CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp
 
 CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/class_2/homework/utility/tool.cpp > CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp > CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.i
 
 CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/class_2/homework/utility/tool.cpp -o CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp -o CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.s
 
 # Object files for target HOMEWORK_2
 HOMEWORK_2_OBJECTS = \
@@ -125,7 +125,7 @@ HOMEWORK_2: CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o
 HOMEWORK_2: CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o
 HOMEWORK_2: CMakeFiles/HOMEWORK_2.dir/build.make
 HOMEWORK_2: CMakeFiles/HOMEWORK_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xeqon9/Code/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HOMEWORK_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HOMEWORK_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HOMEWORK_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/HOMEWORK_2.dir/clean:
 .PHONY : CMakeFiles/HOMEWORK_2.dir/clean
 
 CMakeFiles/HOMEWORK_2.dir/depend:
-	cd /home/xeqon9/Code/class_2/homework/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xeqon9/Code/class_2/homework /home/xeqon9/Code/class_2/homework /home/xeqon9/Code/class_2/homework/build /home/xeqon9/Code/class_2/homework/build /home/xeqon9/Code/class_2/homework/build/CMakeFiles/HOMEWORK_2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xeqon9/Code/C++/class_2/homework/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xeqon9/Code/C++/class_2/homework /home/xeqon9/Code/C++/class_2/homework /home/xeqon9/Code/C++/class_2/homework/build /home/xeqon9/Code/C++/class_2/homework/build /home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles/HOMEWORK_2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HOMEWORK_2.dir/depend
 

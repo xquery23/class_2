@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/xeqon9/Code/class_2/homework/main.cpp" "CMakeFiles/HOMEWORK_2.dir/main.cpp.o" "gcc" "CMakeFiles/HOMEWORK_2.dir/main.cpp.o.d"
-  "/home/xeqon9/Code/class_2/homework/src/video_processor.cpp" "CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o" "gcc" "CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o.d"
-  "/home/xeqon9/Code/class_2/homework/utility/tool.cpp" "CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o" "gcc" "CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o.d"
+  "/home/xeqon9/Code/C++/class_2/homework/main.cpp" "CMakeFiles/HOMEWORK_2.dir/main.cpp.o" "gcc" "CMakeFiles/HOMEWORK_2.dir/main.cpp.o.d"
+  "/home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp" "CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o" "gcc" "CMakeFiles/HOMEWORK_2.dir/src/video_processor.cpp.o.d"
+  "/home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp" "CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o" "gcc" "CMakeFiles/HOMEWORK_2.dir/utility/tool.cpp.o.d"
   )
 
 # Targets to which this target links.
