@@ -73,43 +73,43 @@ CMakeFiles/cut.dir/main.cpp.o: CMakeFiles/cut.dir/flags.make
 CMakeFiles/cut.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cut.dir/main.cpp.o: CMakeFiles/cut.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cut.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cut.dir/main.cpp.o -MF CMakeFiles/cut.dir/main.cpp.o.d -o CMakeFiles/cut.dir/main.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cut.dir/main.cpp.o -MF CMakeFiles/cut.dir/main.cpp.o.d -o CMakeFiles/cut.dir/main.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/main.cpp
 
 CMakeFiles/cut.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cut.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/main.cpp > CMakeFiles/cut.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/main.cpp > CMakeFiles/cut.dir/main.cpp.i
 
 CMakeFiles/cut.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cut.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/main.cpp -o CMakeFiles/cut.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/main.cpp -o CMakeFiles/cut.dir/main.cpp.s
 
 CMakeFiles/cut.dir/src/video_processor.cpp.o: CMakeFiles/cut.dir/flags.make
 CMakeFiles/cut.dir/src/video_processor.cpp.o: ../src/video_processor.cpp
 CMakeFiles/cut.dir/src/video_processor.cpp.o: CMakeFiles/cut.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cut.dir/src/video_processor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cut.dir/src/video_processor.cpp.o -MF CMakeFiles/cut.dir/src/video_processor.cpp.o.d -o CMakeFiles/cut.dir/src/video_processor.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cut.dir/src/video_processor.cpp.o -MF CMakeFiles/cut.dir/src/video_processor.cpp.o.d -o CMakeFiles/cut.dir/src/video_processor.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp
 
 CMakeFiles/cut.dir/src/video_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cut.dir/src/video_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp > CMakeFiles/cut.dir/src/video_processor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp > CMakeFiles/cut.dir/src/video_processor.cpp.i
 
 CMakeFiles/cut.dir/src/video_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cut.dir/src/video_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp -o CMakeFiles/cut.dir/src/video_processor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/src/video_processor.cpp -o CMakeFiles/cut.dir/src/video_processor.cpp.s
 
 CMakeFiles/cut.dir/utility/tool.cpp.o: CMakeFiles/cut.dir/flags.make
 CMakeFiles/cut.dir/utility/tool.cpp.o: ../utility/tool.cpp
 CMakeFiles/cut.dir/utility/tool.cpp.o: CMakeFiles/cut.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xeqon9/Code/C++/class_2/homework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cut.dir/utility/tool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cut.dir/utility/tool.cpp.o -MF CMakeFiles/cut.dir/utility/tool.cpp.o.d -o CMakeFiles/cut.dir/utility/tool.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cut.dir/utility/tool.cpp.o -MF CMakeFiles/cut.dir/utility/tool.cpp.o.d -o CMakeFiles/cut.dir/utility/tool.cpp.o -c /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp
 
 CMakeFiles/cut.dir/utility/tool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cut.dir/utility/tool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp > CMakeFiles/cut.dir/utility/tool.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp > CMakeFiles/cut.dir/utility/tool.cpp.i
 
 CMakeFiles/cut.dir/utility/tool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cut.dir/utility/tool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp -o CMakeFiles/cut.dir/utility/tool.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xeqon9/Code/C++/class_2/homework/utility/tool.cpp -o CMakeFiles/cut.dir/utility/tool.cpp.s
 
 # Object files for target cut
 cut_OBJECTS = \
